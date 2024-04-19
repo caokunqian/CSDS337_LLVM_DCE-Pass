@@ -1,0 +1,3 @@
+/mnt/d/University/Course/Grade4/CSDS337/Project/PJ4/code/PG4-1/PG4/build/CMakeFiles/LLVM-Lab.dir
+/mnt/d/University/Course/Grade4/CSDS337/Project/PJ4/code/PG4-1/PG4/build/CMakeFiles/edit_cache.dir
+/mnt/d/University/Course/Grade4/CSDS337/Project/PJ4/code/PG4-1/PG4/build/CMakeFiles/rebuild_cache.dir

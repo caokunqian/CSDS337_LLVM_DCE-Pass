@@ -1,0 +1,15 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/d/University/Course/Grade4/CSDS337/Project/PJ4/Testing/3/PG4-1/PG4/build
+Consolidate compiler generated dependencies of target LLVM-Lab
+[100%] Built target LLVM-Lab
+
+
+
+INFO: Compiling function main.
+TestMod
+└──main
+   └──block
+      └──return
+         └──0
+

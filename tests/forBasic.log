@@ -1,0 +1,45 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/d/University/Course/Grade4/CSDS337/Project/PJ4/Testing/3/PG4-1/PG4/build
+Consolidate compiler generated dependencies of target LLVM-Lab
+[100%] Built target LLVM-Lab
+
+
+
+
+
+
+
+
+
+
+INFO: Compiling function printf.
+INFO: Compiling function main.
+TestMod
+├──printf
+│  └──nullptr
+└──main
+   └──block
+      ├──for loop
+      │  ├── Init: (=)
+      │  │  ├──i
+      │  │  └──0
+
+      │  ├── Cond: (<)
+      │  │  ├──i
+
+      │  │  └──8
+
+      │  ├── Body: block
+      │  │  └──printf
+      │  │     ├──"Loop Iteration: %d\n"
+      │  │     └──i
+
+      │  └── Iter: (=)
+      │     ├──i
+      │     └──(+)
+      │        ├──i
+      │        └──1
+      └──return
+         └──0
+
