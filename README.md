@@ -11,6 +11,6 @@ Group Member:
 
 ---
 For Testing:
-chmod +x run.sh
-./run.sh
-./executeTests.sh
+- chmod +x run.sh
+- ./run.sh
+- ./executeTests.sh
