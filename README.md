@@ -11,6 +11,7 @@ Group Member:
 
 ---
 For Testing:
+cd to the path where run.sh located in
 - chmod +x run.sh
 - ./run.sh
 - ./executeTests.sh
