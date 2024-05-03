@@ -39,7 +39,7 @@ private:
     std::unique_ptr<ASTStatement> definition = nullptr;
 
 public:
-
+    void EliminateDeadCode();
     // Name of the function.
     std::string name;
 
@@ -76,7 +76,7 @@ public:
     // Give the function a definition! This is necessary if the function is not linked to when compiling (as in its our own function creation).
     // definition: Function definition, which is just a statement.
     void Define(std::unique_ptr<ASTStatement> definition);
-
+    
     // Get a string representation of this function.
     // prefix: the prefix of this node's children. This string has length 3 * the depth of this node.
     std::string ToString(const std::string& prefix);

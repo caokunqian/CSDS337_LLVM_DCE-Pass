@@ -14,7 +14,7 @@ public:
 
     // If the function type is variadic.
     bool varArgs;
-
+    void EliminateDeadCode();
     // Return type.
     std::unique_ptr<VarType> returnType;
 

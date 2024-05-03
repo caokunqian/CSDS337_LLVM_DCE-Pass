@@ -1,5 +1,5 @@
 #include "function.h"
-
+#include <iostream>
 #include "ast.h"
 #include "types/simple.h"
 #include <llvm/IR/Verifier.h>
@@ -15,7 +15,8 @@ ASTFunction::ASTFunction(AST& ast, const std::string& name, std::unique_ptr<VarT
         paramTypes.push_back(std::get<0>(param)->Copy()); // This copies the first item of the tuple, which is a var type pointer.
     }
     funcType = std::make_unique<VarTypeFunction>(std::move(returnType), std::move(paramTypes), variadic);
-
+    //std::cout << "Dead code elimination performed on function: " << this->name << std::endl;
+    std::cout << "Dead code elimination performed on function: " << name << std::endl;
     // Add to scope table, we need to error if it already exists.
     if (!ast.scopeTable.AddVariable(name, funcType->Copy()))
     {

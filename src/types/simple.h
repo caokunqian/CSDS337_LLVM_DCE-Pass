@@ -20,7 +20,7 @@ class VarTypeSimple : public VarType
     VarTypeSimpleEnumeration type;
 
 public:
-
+    void EliminateDeadCode();
     // Constant types to help.
     static VarTypeSimple VoidType;
     static VarTypeSimple BoolType;
