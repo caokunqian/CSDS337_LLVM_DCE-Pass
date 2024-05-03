@@ -10,6 +10,11 @@ Group Member:
 - Jacob Bair - jeb287@case.edu
 
 ---
+
+Environment:
+LLVM: 14.0
+
+---
 For Testing:
 cd to the path where run.sh located in
 - chmod +x run.sh
